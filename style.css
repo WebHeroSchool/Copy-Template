@@ -3,28 +3,16 @@ h1 {
  }
  body {
    margin: 0;
- }
+   border: dashed 1px red;
+  }
 
- .header {
-   margin:auto;
-   width:80%;
- }
-
- .main-section{
+ .wrapper {
    margin:auto;
    width: 80%;
+   border: dashed 1px red;
  }
 
- .heder {
-   display: flex;
-   justify-content: space-between;
+ .logo, .menu {
+   display: inline-block;
+   border: dashed 1px red;
  }
-
-.logo {
-  paddingg: 40px 0 4px 0;
-}
-
-.menu {
-  display: flex;
-  align-items: center;
-}
