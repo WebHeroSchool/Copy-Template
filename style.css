@@ -8,11 +8,23 @@ h1 {
  .header {
    margin:auto;
    width:80%;
-   border:dashed 1px red;
  }
- 
+
  .main-section{
    margin:auto;
    width: 80%;
-   border:dashed 1px red;
  }
+
+ .heder {
+   display: flex;
+   justify-content: space-between;
+ }
+
+.logo {
+  paddingg: 40px 0 4px 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
