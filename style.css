@@ -1,18 +1,28 @@
 h1 {
   font-family: "Oswald&display", sans-serif;
  }
+
+
+ .logo, .menu {
+  padding: 40px 0 4px 0;
+ }
+
  body {
    margin: 0;
    border: dashed 1px red;
   }
 
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
  .wrapper {
    margin:auto;
    width: 80%;
-   border: dashed 1px red;
  }
 
  .logo, .menu {
    display: inline-block;
-   border: dashed 1px red;
  }
