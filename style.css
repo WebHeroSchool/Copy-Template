@@ -28,7 +28,7 @@ h1 {
  /*.logo__circle {
   width: 28px;
   height: 28px;
-  border: dashed 1px red;
+  border: dashed 1px black;
  }*/
 
  .logo__circle_color_dark-blue {
@@ -101,16 +101,77 @@ h1 {
   background: #0056EC;
  }
 
+ .main-content {
+  padding-top: 100px;
+  width: 37%;
+ }
+
+ .main-content__title {
+  margin: 0 0 40px 0;
+  font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
+ }
+
+ .main-content__subtitle {
+  margin: 0 0 41px 0;
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+ }
+
+ .main {;
+  padding-right: 63%;
+  background: url(img/mainImg.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+ }
+
+ .main {
+  padding-right: 63%;
+  background: top right no-repeat url(img/mainImg.svg);
+  padding: 0 63% 100px 0;
+ }
+
+
+ .main__title {
+  margin: 0 0 40px 0;
+  font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
+ }
+
+ .main__subtitle {
+  margin: 0 0 41px 0;
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+ }
+
+ .main__button {
+  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+ }
+
+ .main__title-text_highlight {
+  background: #ECF3FF;
+ }
+
+ .main__button {
+  display: inline-block;
+  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  color: #fff;
+  background: #0056EC;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: opacity .5s;
+ }
+
+ .main__button:hover {
+  opacity: .5;
+ }
+
 
  body {
    margin: 0;
-   border: dashed 1px red;
   }
 
   .header {
     padding: 40px 0 4px 0;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
   }
 
 
