@@ -117,26 +117,29 @@ h1 {
  }
 
  .main {;
-  padding-right: 63%;
+  padding-right: 40%;
   background: url(img/mainImg.svg);
   background-repeat: no-repeat;
   background-position: top right;
+
  }
 
  .main {
-  padding-right: 63%;
+  padding-right: 80%;
   background: top right no-repeat url(img/mainImg.svg);
-  padding: 50px 50% 100px 0; // 50% - ширина блока с текстом
+  background-size: 50%;
+  padding: 40px 50% 100px 0; // 50% - ширина блока с текстом
+
  }
 
 
  .main__title {
-  margin: 30px 30px 30px 0;
+  margin: 30px 30px 60px 0;
   font: bold 60px/65px pt_serif, arial, helvetica, sans-serif;
  }
 
  .main__subtitle {
-  margin: 0 0 41px 0;
+  margin: 60px 30px 60px 0;
   font: 18px/21px Roboto, arial, helvetica, sans-serif;
  }
 
@@ -153,10 +156,10 @@ h1 {
   font: 14px/16px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 14px 16px;
+  padding: 14px 16px; //размер кнопки
   text-decoration: none;
   transition: opacity .5s;
-  background-color:#FFD700; 
+  background-color:#FFD700;
  }
 
  .main__button:hover {
