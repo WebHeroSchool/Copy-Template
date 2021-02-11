@@ -126,7 +126,7 @@ h1 {
  .main {
   padding-right: 63%;
   background: top right no-repeat url(img/mainImg.svg);
-  padding: 0 63% 100px 0;
+  padding: 50px 50% 100px 0; // 50% - ширина блока с текстом
  }
 
 
@@ -156,6 +156,7 @@ h1 {
   padding: 14px 16px;
   text-decoration: none;
   transition: opacity .5s;
+  background-color:#FFD700; 
  }
 
  .main__button:hover {
